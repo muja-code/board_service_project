@@ -21,9 +21,7 @@
 
 3. RESTful한 API를 설계했나요? 어떤 부분이 그런가요? 어떤 부분이 그렇지 않나요?
 
-    posts와 comments로 복수형이로 만들고 통일하고 http Method로 구분하면서 Resource를 구분하기위해 필요한 데이터는 파라미터값으로 받고
-    
-    JSON데이터만 통신하기 때문에 RESTful하게 설계했다고 생각합니다.
+    posts와 comments로 복수형이로 만들고 통일하고 http Method로 구분하면서 Resource를 구분하기위해 필요한 데이터는 파라미터값으로 받고 JSON데이터만 통신하기 때문에 RESTful하게 설계했다고 생각합니다.
     
 
 4. 역할별로 Directory Structure를 분리하였을 경우 어떠한 이점이 있을까요?
