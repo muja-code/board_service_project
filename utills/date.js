@@ -23,7 +23,4 @@ function dateFormat(date) {
     return dateFormat;
 }
 
-
-console.log(dateFormat(new Date()));
-
 module.exports = dateFormat;
