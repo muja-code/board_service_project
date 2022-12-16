@@ -60,7 +60,7 @@ router.get("/posts/:post_id", async (req, res) => {
             return res.status(400).json({ msg: "해당 글을 찾을 수 없습니다." });
         }
 
-        res.status(200).json({ msg: post });
+        res.status(200).json({ data: post });
     } catch {
         res.status(400).json({ msg: "데이터 형식이 올바르지 않습니다." });
     }

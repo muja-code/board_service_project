@@ -49,7 +49,6 @@ router.get("/comments/:post_id", async (req, res) => {
     } catch {
         res.status(400).json({ msg: "데이터 형식이 올바르지 않습니다." });
     }
-
 });
 
 router.put("/comments/:comment_id", async (req, res) => {
